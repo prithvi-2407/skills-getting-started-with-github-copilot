@@ -65,6 +65,37 @@ section h3 {
   background-color: #f9f9f9;
 }
 
+/* Participants styling */
+.participants-section {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px dashed #e0e0e0;
+}
+
+.participants-list {
+  list-style: disc inside;
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding-left: 16px;
+}
+
+.participants-list li {
+  display: block;
+}
+
+.participant-badge {
+  display: inline-block;
+  background: linear-gradient(180deg, #ffffff, #f1f5ff);
+  border: 1px solid #e0e7ff;
+  color: #0b3a8c;
+  padding: 6px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.02);
+}
+
 .activity-card h4 {
   margin-bottom: 10px;
   color: #0066cc;
